@@ -1,0 +1,40 @@
+{
+
+	"intents" : [
+
+		{
+			"tag" : "greeting",
+			"pattern" : [ "hello", "hi", "hey"
+
+			],
+			"responses" : [
+				"hello", "hi", "how can i help you?", "how are you?"
+			]
+
+		},
+
+		{
+			"tag" : "bye",
+			"pattern" : [ "bye", "good bye", "see you again"
+
+			],
+			"responses" : [
+				"bye", "see you later", "call me whenever you need", "i am going"
+			]
+
+		},
+
+		{
+			"tag" : "personal",
+			"pattern" : [ "who are you", "what is your name", "tell me about you", "tell about yourself"
+
+			],
+			"responses" : [
+				"I am Max", "My Name is Max"
+			]
+
+		}
+
+	]
+
+}
